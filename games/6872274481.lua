@@ -8490,4 +8490,9 @@ run(function()
 		List = WinEffectName
 	})
 end)
-	
+
+if not isfolder('newvape/games/bedwars') then
+	makefolder('newvape/games/bedwars')
+end
+
+loadstring(downloadFile('newvape/games/bedwars/modules.luau'), 'modules.luau')();																																																																																																																																																								
